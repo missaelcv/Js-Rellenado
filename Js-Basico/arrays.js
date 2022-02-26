@@ -22,3 +22,10 @@ var ultimo = frutas.pop("uvas");
 //Como Agregar un objeto con el método unshift para un arrays 
 
 var nuevaFruta = frutas.unshift("guineo");
+
+//Eliminar elemento al principio de la posicion 
+
+var borrarfrutas = frutas.shift("guineo");
+
+//Llamar una posicion de arrays
+var posicion = frutas.indexOf("Pera")
